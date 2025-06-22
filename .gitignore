@@ -1,0 +1,4 @@
+/.idea
+/vendor
+.lando.yml
+composer.lock
