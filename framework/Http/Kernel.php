@@ -17,18 +17,6 @@ class Kernel
             {
                 $collector->addRoute($route[0], $route[1], $route[2]);
             }
-
-//            $collector->get( '/', function () {
-//
-//                $content = '<h1>Gamer</h1>';
-//                return new Response($content);
-//            });
-//
-//            $collector->get( '/posts/{id}', function (array $vars) {
-//                $content = "<h1>Post - {$vars['id']}</h1>";
-//
-//                return new Response($content);
-//            });
         });
 
         $routeInfo = $dispatcher->dispatch(

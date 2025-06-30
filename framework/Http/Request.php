@@ -4,15 +4,18 @@ namespace Somecode\Framework\Http;
 
 class Request
 {
-    public function __construct(
-        private readonly array $getParams,
-        private readonly array $postData,
-        private readonly array $cookies,
-        private readonly array $files,
-        private readonly array $server,
-    )
+    private readonly array $getParams;
+    private readonly array $postData;
+    private readonly array $cookies;
+    private readonly array $files;
+    private readonly array $server;
+    public function __construct($getParams, $postData, $cookies, $files, $server)
     {
-
+        $this->getParams = $getParams;
+        $this->postData = $postData;
+        $this->cookies = $cookies;
+        $this->files = $files;
+        $this->server = $server;
     }
     public static function createFromGlobals(): static
     {
