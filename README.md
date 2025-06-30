@@ -1,4 +1,4 @@
-### SMALL PHP FRAMEWORK WRITTEN IN PURE PHP
+#### Small PHP Framework
 
 ## Features
 1. MVC structure (view not implemented)
@@ -8,10 +8,10 @@
 5. Ready to run with Lando or PHP server
 
 ## Technologies
-PHP 8.2
-Composer
-FastRoute
-Lando
+- PHP 8.2
+- Composer
+- FastRoute
+- Lando
 
 ## Quick start
 1. Clone the repo
