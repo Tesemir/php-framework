@@ -1,4 +1,4 @@
-#### Small PHP Framework
+# Small PHP Framework
 
 ## Features
 1. MVC structure (view not implemented)
