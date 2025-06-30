@@ -28,5 +28,5 @@ lando start
 ```
 
 ## Example Output
-![img.png](img.png)
-![img_1.png](img_1.png)
+![image](https://github.com/user-attachments/assets/ca0cff11-c93f-4f99-8378-2fdeaae9e5eb)
+![image](https://github.com/user-attachments/assets/f7a98746-eaa8-48e7-bb8c-8048e0cb9a30)
